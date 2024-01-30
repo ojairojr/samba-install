@@ -13,4 +13,6 @@ nano /etc/netplan/00-installer-config.yaml
 
 netplan apply
 netplan status
+
+systemctl restart NetworkManager
 echo "COPIE O MAC E O NOME DO DISPOSITIVO DE REDE E EXECUTE O COMANADO: nmtui"
