@@ -1,0 +1,6 @@
+Ordem de execução de script:
+
+1 Initial config
+2 Mid config
+3 Install samba
+4 Create domain
