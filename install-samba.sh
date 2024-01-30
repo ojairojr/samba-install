@@ -13,7 +13,7 @@ make && make install
 
 cp ${pathSambaSrc}/bin/default/packaging/systemd/samba.service /etc/systemd/system/samba-ad-dc.service
 mkdir -p ${pathSambaInstall}/etc/sysconfig && cd ${pathSambaInstall}/etc/sysconfig
-touch samba && echo 'SAMBAOPTIONS="-D"'
+touch samba && echo 'SAMBAOPTIONS="-D"' >> samba
 
 systemctl daemon-reload
 
