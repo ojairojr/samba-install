@@ -3,7 +3,7 @@
 sambaVersion="4.19.3"
 pathSambaSrc="/usr/src/samba-${sambaVersion}"
 pathSambaInstall="/usr/local/samba"
-apt install build-essential libacl1-dev libattr1-dev libblkid-dev libgnutls28-dev libreadline-dev python3-dev python3-dnspython gdb pkg-config libpopt-dev libldap2-dev dnsutils libbsd-dev attr krb5-user docbook-xsl libcups2-dev libavahi-client-dev libavahi-common-dev libpam0g-dev libnss3-dev libssl-dev libgpgme11-dev libncurses5-dev libgnutls28-dev zlib1g-dev libsasl2-dev acl attr libacl1 libattr1
+apt install build-essential libacl1-dev libattr1-dev libblkid-dev libgnutls28-dev libreadline-dev python3-dev python3-dnspython gdb pkg-config libpopt-dev libldap2-dev dnsutils libbsd-dev attr krb5-user docbook-xsl libcups2-dev libavahi-client-dev libavahi-common-dev libpam0g-dev libnss3-dev libssl-dev libgpgme11-dev libncurses5-dev libgnutls28-dev zlib1g-dev libsasl2-dev acl attr libacl1 libattr1 -y
 cd /usr/src
 wget -c https://download.samba.org/pub/samba/stable/samba-${sambaVersion}.tar.gz
 
