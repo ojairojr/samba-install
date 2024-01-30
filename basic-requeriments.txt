@@ -1,0 +1,5 @@
+Ubuntu server 12
+CPU: 4 
+RAM Mínimo: 4GB
+Disco 1: 60GB (para instalação do sistema operacional)
+Discos para RAID (mínimo 3 discos): 4 discos 75GB
