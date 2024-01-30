@@ -3,7 +3,7 @@
 sambaVersion="4.19.3"
 pathSambaSrc="/usr/src/samba-${sambaVersion}"
 pathSambaInstall="/usr/local/samba"
-apt install build-essential libacl1-dev libattr1-dev libblkid-dev libgnutls28-dev libreadline-dev python3-dev python3-dnspython gdb pkg-config libpopt-dev libldap2-dev dnsutils libbsd-dev attr krb5-user docbook-xsl libcups2-dev libavahi-client-dev libavahi-common-dev libpam0g-dev libnss3-dev libssl-dev libgpgme11-dev libncurses5-dev libgnutls28-dev zlib1g-dev libsasl2-dev acl attr libacl1 libattr1 -y
+apt-get install wget acl attr autoconf bind9utils bison build-essential debhelper dnsutils docbook-xml docbook-xsl flex gdb libjansson-dev krb5-user libacl1-dev libaio-dev libarchive-dev libattr1-dev libblkid-dev libbsd-dev libcap-dev libcups2-dev libgnutls28-dev libgpgme-dev libjson-perl libldap2-dev libncurses5-dev libpam0g-dev libparse-yapp-perl libpopt-dev libreadline-dev nettle-dev perl pkg-config python-all-dev python2-dev python2 python3 python-dev-is-python3 python2-dbg python3-dnspython python3-gpg python3-markdown python3-dev xsltproc zlib1g-dev liblmdb-dev lmdb-utils libsystemd-dev perl-modules-5.* libdbus-1-dev libtasn1-bin -y
 cd /usr/src
 wget -c https://download.samba.org/pub/samba/stable/samba-${sambaVersion}.tar.gz
 
